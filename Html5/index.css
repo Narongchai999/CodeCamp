@@ -1,0 +1,43 @@
+/*Reset Default style*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+}
+.logo h3{
+    color: rgb(0, 68, 255);
+    font-size: large;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+.menu{
+        display: flex;
+        justify-content: space-between;     
+        list-style: none;
+}
+.menu li a{
+    text-decoration:none ;
+    margin: 1rem;
+    color: aliceblue;
+    padding: 5px 10px; /* ขนาดของ padding */
+    border-radius: 5px; /* กำหนดเส้นมุมของลิงค์ */
+}  
+.menu li a:hover {
+    background-color: #2980b9; /* สีพื้นหลังเมื่อเมาส์ hover ที่ลิงค์ */
+}
+main{
+    background-color: rgb(135, 253, 255);
+}
+Footer{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}

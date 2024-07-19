@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--CSS 3 แบบ
+        1.inline css
+        2.Embeded css
+        3.External css-->
+    <title>ชื่อเว็บไซต์</title> <!--ชื่อเว็บไซต์-->
+    <style>
+        html {}
+
+        .h1 {
+            color: aliceblue;
+        }
+
+        .redText {
+            /*จุดจะใช้เป็น class*/
+            color: red;
+        }
+
+        #greenText {
+            /*จุดจะใช้เป็น id*/
+            color: green;
+        }
+    </style>
+    <link href="css/style.css" type="stylesheet">
+</head>
+
+<body>
+    <p style="color: #00008B;">inline css</p>
+    <h1>Test1</h1>
+    <h1>Test2</h1>
+    <div class="redText"> <!--จุดจะใช้เป็น class-->
+        <h1>Test1</h1>
+        <h1>Test2</h1>
+    </div>
+    <div id="greenText"> <!--จุดจะใช้เป็น id-->
+        <h1>Test1</h1>
+        <h1>Test2</h1>
+    </div>
+</body>
+
+</html>

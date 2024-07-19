@@ -1,0 +1,47 @@
+h1,
+h4 {
+    font-size: large;
+    color: rgb(129, 0, 79);
+}
+
+.head-style {
+    color: rgb(2, 0, 122);
+    background-color: aquamarine;
+}
+
+.menu {
+    list-style: none;
+    /*ลบจุด*/
+}
+
+.menu li {
+    display: inline;
+    /*เป็นแนวนอน*/
+    margin: 0, auto;
+}
+
+.menu a {
+    text-decoration: none;
+    /*ลบเส้นใต้อักษร*/
+}
+
+.name {
+    color: rgb(98, 0, 255);
+}
+
+.email {
+    color: rgb(255, 0, 204);
+}
+
+.gender {
+    color: rgb(170, 0, 255);
+}
+
+label {
+    color: rgb(129, 0, 169);
+    background-color: rgb(191, 243, 243);
+}
+
+.s {
+    color: rgb(41, 34, 177);
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //let radius = prompt("โปรดป้อนค่ารัศมีของวงกลม:"); //input ค่าเข้ามา
+        //radius = parseFloat(radius);
+        //let area = Math.PI * radius * radius;
+        //document.write("พื้นที่ของวงกลมที่มีรัศมี " + radius + " เท่ากับ " + area + " ตารางหน่วย");
+        //............................................................
+
+        // function greeting() {
+        // console.log(".......................")
+        // console.log(".........HELLO.........")
+        // console.log(".......................")
+        // }
+        // greeting(); //เป็นการเรียกใช้งานตัวฟังก์ชัน
+
+        //............................................................
+
+        // function add(x,y) {
+        // console.log(x+y);
+        // }
+        // function minus(x,y) {
+        // console.log(x+y);
+        // }
+        // add(2,3);
+        // minus(3,5);
+
+        //............................................................
+
+        // function dive(){
+        //     let random=Math.floor(Math.random()*6)+1;
+        //     if(ranodm >=4){
+        //         return `${random}:High`;
+        //     }
+        //         return `${random}:Low`;
+        // }
+        //............................................................
+        function add(a, b) {
+            return a + b;
+        }
+        function subtract(a, b) {
+            return a - b;
+        }
+        function multiply(a, b) {
+            return a * b;
+        }
+        function divide(a, b) {
+            return a / b;
+        }
+        function calculate(a, b, operator) {
+            switch (operator) {
+                case '+':
+                    return add(a, b);
+                case '-':
+                    return subtract(a, b);
+                case '*':
+                    return multiply(a, b);
+                case '/':
+                    return divide(a, b);
+                default:
+                    return NaN; 
+            }
+        }
+        let a = parseFloat(prompt("โปรดป้อนค่า a:"));
+        let operator = prompt("โปรดป้อนตัวดำเนินการ (+, -, *, /):");
+        let b = parseFloat(prompt("โปรดป้อนค่า b:"));
+        let result = calculate(a, b, operator);
+        document.write("ผลลัพธ์: " + result);
+      
+    </script>
+
+
+</body>
